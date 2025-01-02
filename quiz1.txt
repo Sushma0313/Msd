@@ -1,0 +1,44 @@
+<html>
+<head>
+<title> Quiz</title>
+</head>
+<body>
+<header>
+<h1 align="center"> HTML/CSS Quiz</h1>
+<nav></nav>
+
+</header>
+<form>
+  <h2> Student Info </h2>
+ <label for="name">Name:</label>
+<input type="text"><br>
+<label for="email">Email:</label>
+<input type="text"><br>
+<label for="dob">Date of<br>birth:</label>
+<input type="text">
+<select>
+<option></option>
+</select>
+<h2 align="left">HTML</h2>
+<h3>  Question #1</h3>
+<p>The legend element represents a caption for the content of its parent fieldset element</p>
+<input type="radio">True<br>
+<input type="radio">False<br>
+<h3> Question #2</h3>
+<p> A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+<input type="radio">True<br>
+<input type="radio">False<br><br>
+<h3> CSS</h3>
+<p> Can the CSS margin property accept negative values?</p>
+<input type ="text" placeholder="Select an option"><select><option></option></select>
+<p> Do you have any questions:</p><br>
+<textarea rows=" " cols=" "></textarea><br>
+<button> Send </button>
+<p> <u> freecodecamp</u></P>
+<p> San Francisso</p>
+<p> Calfornia</p>
+<p> USA</p>
+</form>
+</body>
+</html>
+
