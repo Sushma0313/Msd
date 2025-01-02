@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title> Cafe Menu</title>
+        <style>
+            .centerImage{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu"></div>
+        <header>
+            <h1> CAMPER CAFE</h1>
+            <p class="established"> Est. 2020</p>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Coffee</h2>
+                <img src="https://images6.fanpop.com/image/photos/38100000/-Coffee-coffee-38175764-2048-2048.jpg" class="centerImage" width="30">
+                <article class="item">
+                    <p class="flavor">French Vanilla</p><p class="price"> 3.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p><p class="price"> 3.75</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Pumpkin Spice</p><p class="price"> 3.50</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Hazelnut</p><p class="price"> 4.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Mocha</p><p class="price"> 4.50</p>
+                </article>
+            </section>
+            <section>
+                <h2>Desserts</h2> 
+                <img src="https://halachaaday.wordpress.com/wp-content/uploads/2014/12/546566_food_dessert_yummy_sweet_cheris_chocolate_plate_2500x1923_www-gdefon-ru.jpg"          class="centerImage" width="30">
+                <article class="item">
+                    <p class="flavor">Donut</p><p class="price"> 1.50</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Cherry Pie</p><p class="price"> 2.75</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Cheesecake</p><p class="price"> 3.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Cinnamon Roll</p><p class="price"> 2.50</p>
+                </article>
+                
+                </section>
+        </main>
+        <footer>
+            <p> <u>Visit our website</u></p>
+            <p>123 Free Code Camp Drive</p>
+        </footer>
+    </body>
+</html>
+/*file.css*/
+body{
+    background-color:burlywood;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.established{
+    font-style:italic;
+}
+h1,h2,p{
+    text-align: center;
+}
+.menu{
+    width:80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    }
+    hr{
+        height: 2px;
+        background-color:brown;
+        border-color: brown;
+    }
+    .flavor{
+        text-align: left;
+    }
+    .price{
+        text-align: right;
+    }
+    h1,h2{
+        font-family: Impact;
+    }
+    
+    .item p{
+        margin:1px 0;
+    }
