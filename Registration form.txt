@@ -1,0 +1,32 @@
+<html>
+   <head>
+        <title> Registration form </title>
+   </head>
+   <body>
+    <h1 align="center">Registration form</h1>
+    <p align="center">Please fill out this form with the required information</p>
+    <form align="center">
+    <label for="first name">Enter Your First Name:</label><br>
+    <input name="Name" type="text"><br>
+    <label for="Last Name">Enter Your Last Name:</label><br>
+    <input name="name"type="text"><br>
+    <label for="email">Enter Your Email:</label><br>
+    <input name="name"type="text"><br>
+    <label for="pass">Create a new password:</label><br>
+    <input name="name"type="text"><br>
+    <p>Account type(required)</p>
+    <input name="name"type="radio">personal<br>
+    <input type="radio">Business
+    <p>Upload a profile picture:</p>
+    <input type="text" placeholder="Chosen file"> No file chosen
+    <p>Input your age(years):</p>
+    <input type="text">
+    <p>How did you hear about us?</p>
+    <input type="text" placeholder="(select one)">
+    <p>Provide a bio:</p>
+    <textarea rows="3" cols="30" placeholder="I like coding on the beach..."></textarea><br>
+     <p><input type="checkbox"> I accept the <u>terms and conditions</u></p>
+    <button>Submit</button>
+    
+   </body>
+</html>
