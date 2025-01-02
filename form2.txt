@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+<label for="name">Name</label><br>
+<input type="text" placeholder="Enter Your name"><br><br>
+<label for="email">Email</label><br>
+<input type="text" placeholder="Enter Your Email"><br><br>
+<label for=" Age">Age(optional)</label><br>
+<input type="text" placeholder="Age"><br><br>
+<label for="para">Which option best describes your current role?</label><br>
+<input type="text" placeholder="Select current role">
+<select>
+<option></optoion>
+</select>
+<h2>Would you recommend<br>freecodecamp to a friend?</h2>
+<input type="radio">Definitely<br>
+<input type="radio">Maybe<br>
+<input type="radio">Not sure<br>
+<p> What is your favorite feature of freecodecamp?</p>
+<input type="text" placeholder="Select an option">
+<select>
+<option></option>
+</select>
+<h2> What would you like to see<br>improved?(Check all that apply)</h2>
+<input type="checkbox">Front-end projects<br>
+<input type="checkbox">Back-end projects<br>
+<input type="checkbox">Data Visualization<br>
+<input type="checkbox">Challenges<br>
+<input type="checkbox">open source community<br>
+<input type="checkbox">Gitter help rooms<br>
+<input type="checkbox">Videos<br>
+<input type="checkbox">City meetups<br>
+<input type="checkbox">Wiki<br>
+<input type="checkbox">Forum<br>
+<input type="checkbox">Additional courses<br>
+<h2> Any Comments or suggestions?</h2>
+<textarea rows="3" cols="30" placeholder="Enter your comment here..."></textarea><br>
+<button>Submit</button>
+</body>
+</html>
